@@ -1,0 +1,11 @@
+For my project, I wanted to build out a site for a soap company as I've recently begun to make my own soaps. This seemed like a useful site to create as I hope to one day sell the soaps that I make, but for right now, it will work as a great project for my final. For this project, I intend to use the following technologies:
+
+1) Bootstrap for the styling, responsive web sizing, and layout
+2) jQuery for the interactions and shopping cart
+3) jQuery Validate for the checkout form validation
+4) Utilize Twitter's API to embed a twitter feed for the soap company
+5) Embed YouTube videos onto page that show the soap making process
+
+For the colors on my page, I'm looking to remain in an earthy pallets, with browns and tans mostly. This is in line with the colors of natural soaps and intended (from a marketing standpoint) to build trust with consumers that these soaps are indeed handmade and natural.
+
+The site will be responsive, adjusting size and positioning on desktop, tablet, and mobile devices to accommodate browsing comfortably for users. Additionally, users will be able to add items to their cart and checkout with their purchases on any device. 

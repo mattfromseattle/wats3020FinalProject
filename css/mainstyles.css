@@ -1,20 +1,7 @@
 html, body {
-    background-color: orange;
+    background-color: lightslategray;
 }
 
-.jumbotron {
-    background-color: green;
-}
-
-.container {
-    background-color: red;
-}
-
-img {
-    background-color: yellow;
-}
-
-img:hover {
-    width: 100%;
-    height: 100%;
+.thumbnail {
+    
 }

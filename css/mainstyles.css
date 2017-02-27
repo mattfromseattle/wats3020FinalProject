@@ -5,3 +5,15 @@ html, body {
 .thumbnail {
     
 }
+
+.navbar {
+    background-color: yellow;
+}
+
+.jumbotron {
+    background-color: green;
+}
+
+.btn {
+    background-color: red;
+}

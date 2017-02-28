@@ -19,6 +19,10 @@ html, body {
     width: 264.16px;
 }
 
+.thumbnail .btn:hover {
+    background-color: #96A658;
+}
+
 .thumbnail h3 {
     text-align: center;
 }

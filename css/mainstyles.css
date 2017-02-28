@@ -1,9 +1,26 @@
 html, body {
     background-color: #968b84;
+    margin-top: 10px;
 }
 
 .jumbotron {
-    
+
+}
+
+.thumbnail {
+    align-items: center;
+    height: 308.48px;
+    width: 274.16px;
+}
+
+.thumbnail img {
+    align-items: center;
+    height: 158.48px;
+    width: 264.16px;
+}
+
+.thumbnail h3 {
+    text-align: center;
 }
 
 .btn {

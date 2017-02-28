@@ -1,3 +1,11 @@
 html, body {
-    background-color: lightslategray;
+    background-color: #968b84;
+}
+
+.jumbotron {
+    
+}
+
+.btn {
+    background-color: #f09d06;
 }

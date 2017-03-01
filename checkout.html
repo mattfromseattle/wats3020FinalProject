@@ -36,7 +36,6 @@
     <hr>
     <p class="lead">Please note: This form is only for validation demonstration purposes. Do not enter real payment information; please use imaginary data.</p>
     <form class="form-horizontal" role="form" action="thank-you.html" method="get" id="order-form">
-        <!-- TODO: Add a general validation check so that any field contained in a `div.form-group. required` will be required to have information when the user submits the form. -->
         <fieldset>
             <legend>Your Information</legend>
             <div class="form-group required">
@@ -44,19 +43,12 @@
                 <div class="col-sm-9">
                     <input type="text" class="form-control" name="your-name" id="your-name" placeholder="Your Name">
                 </div>
-                <!-- TODO: Make validation for name according to these rules:
-                 * Name must be fewer than 128 characters.
-                 * Name may not contain any numbers.
-                 -->
             </div>
             <div class="form-group required">
                 <label class="col-sm-3 control-label" for="your-address">Street Address</label>
                 <div class="col-sm-9">
                     <input type="text" class="form-control" name="your-address" id="your-address" placeholder="Your Street Address">
                 </div>
-                <!-- TODO: Make validation for street address according to these rules:
-                  * Field must not be blank
-                  -->
             </div>
             <div class="form-group">
                 <label class="col-sm-3 control-label" for="your-address2">Street Address (additional)</label>
@@ -69,9 +61,6 @@
                 <div class="col-sm-9">
                     <input type="text" class="form-control" name="your-city" id="your-city" placeholder="Your City">
                 </div>
-                <!-- TODO: Make validation for city according to these rules:
-                  * Field must not be blank
-                  -->
             </div>
             <div class="form-group required">
                 <label class="col-sm-3 control-label" for="your-state"><span class="glyphicon glyphicon-question-sign" title="Two-letter state abbreviation."></span> State</label>
@@ -189,6 +178,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/validation.js"></script>
+    <script src="js/vendor/jquery.validate.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>

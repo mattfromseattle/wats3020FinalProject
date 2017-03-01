@@ -1,21 +1,21 @@
 /*
-	Add to cart fly effect with jQuery. - May 05, 2013
-	(c) 2013 @ElmahdiMahmoud - fikra-masri.by
-	license: http://www.opensource.org/licenses/mit-license.php
+    This handles the add-to-cart animation when a user clicks on the Add to Cart button.
 */
+
 $(document).ready(function() {
     console.log("ready!");
 
     $('.add-to-cart').on('click', function() {
         var cart = $('.shopping-cart');
         var imgtodrag = $(this).parents('.thumbnail').find("img").eq(0);
-        console.log("Hello", imgtodrag);
         if (imgtodrag) {
+            // Creates a clone of the image to move to shopping cart
             var imgclone = imgtodrag.clone()
                 .offset({
                     top: imgtodrag.offset().top,
                     left: imgtodrag.offset().left
                 })
+                // Affects the visual design of the image that has been cloned
                 .css({
                     'opacity': '0.5',
                     'position': 'absolute',
@@ -24,6 +24,7 @@ $(document).ready(function() {
                     'z-index': '100'
                 })
                 .appendTo($('body'))
+                // Transitions the cloned image to the shopping cart
                 .animate({
                     'top': cart.offset().top + 10,
                     'left': cart.offset().left + 10,

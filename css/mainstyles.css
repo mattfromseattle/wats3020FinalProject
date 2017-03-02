@@ -61,5 +61,5 @@ button {
 }
 
 .twitter {
-    grid-row: auto;
+    align-content: center;
 }

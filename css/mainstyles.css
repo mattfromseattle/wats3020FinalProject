@@ -13,8 +13,8 @@ body .row {
 
 .thumbnail {
     align-items: center;
-    height: 308.48px;
-    width: 274.16px;
+    height: 100%;
+    width: 100%;
 }
 
 .thumbnail img {

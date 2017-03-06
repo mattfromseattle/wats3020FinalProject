@@ -12,22 +12,26 @@ body .row {
 }
 
 .thumbnail {
-    align-items: center;
-    height: 100%;
-    width: 100%;
+    position: relative;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 350px;
+    width: 250px;
 }
 
 .thumbnail img {
-    align-items: center;
-    height: 158.48px;
-    width: 264.16px;
+    height: 60%;
+    width: 60%;
+    margin-top: .05em;
 }
 
-.thumbnail .btn:hover {
-    background-color: #96A658;
+.thumbnail a {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }
 
-.thumbnail h3 {
+h3 {
     text-align: center;
 }
 

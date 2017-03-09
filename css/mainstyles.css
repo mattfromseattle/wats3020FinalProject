@@ -28,7 +28,7 @@ body .row {
 }
 
 .jumbotron {
-    background-image: url("/Users/mdewey/Development/wats3020/wats3020FinalProject/imgs/gK3ZjBu.jpg");
+    background-image: url('/Users/mdewey/Development/wats3020/wats3020FinalProject/imgs/gK3ZjBu.jpg');
     background-size: cover;
     color: white;
     text-shadow: 1px 1px 2px black; 
